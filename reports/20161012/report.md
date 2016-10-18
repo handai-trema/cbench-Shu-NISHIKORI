@@ -5,7 +5,8 @@ ruby -r profile ./bin/trema run ./lib/cbench.rb
 ```
 によりプロファイルを実行した．  
 コントローラを起動した後，
-```./bin/cbench --port 6653 --switches 1 --loops 10 --ms-per-test 10000 --delay 1000 --throughput 
+```
+./bin/cbench --port 6653 --switches 1 --loops 10 --ms-per-test 10000 --delay 1000 --throughput 
 ```
 を行った．  
 結果のうち，ボトルネックとなっている要素は以下であった．  
