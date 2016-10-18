@@ -18,7 +18,7 @@ ruby -r profile ./bin/trema run ./lib/cbench.rb
  77.84   374.34     93.58        2 46790.00 46790.00  TCPServer#accept  
 ```
 
-* [IO.selectについて](http://www.geekpage.jp/programming/ruby-network/select-0.php)
-* [TCPServer#acceptについて](https://docs.ruby-lang.org/ja/latest/class/TCPServer.html)
+* [IO.selectについて](http://www.geekpage.jp/programming/ruby-network/select-0.php)  
+* [TCPServer#acceptについて](https://docs.ruby-lang.org/ja/latest/class/TCPServer.html)  
 それぞれ解説しているが，読んでも中身を理解できなかった．  
 Thread#joinについてはよく分からなかった．javaの場合の説明はあったが，rubyの場合も適用されるかは謎である．  
